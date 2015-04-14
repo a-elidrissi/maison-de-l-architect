@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <meta charset="utf-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>La maison de l'architecte</title>
+    <meta name="description" content="Le site de la maison de l'architecture">
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <style type="text/css"> 
+		
+	/* Styles de base */
+	body {
+		font-family: 'Bitter', serif;
+		background-color: #eef;
+		color: #259;
+	}
+	
+	/* en-tete : surcharge du jumbotron */
+	.container-fluid .jumbotron {
+		margin-bottom: 0px;
+		padding : 15px;
+		background-color: #eef;
+	}
+	
+	/* Corps de la page */
+	nav img {
+		padding-bottom: 12px;
+        width: 100%;
+    }
+
+	/* Styles pour les tablettes */
+    @media (min-width: 768px) {
+		.col-sm-12 { padding : 0px; }
+		.col-sm-6 { padding : 0px 8px 0px 8px; }
+    }
+
+    /* Styles pour les écrans moyens et grands */
+	/* Après beaucoup de tentatives, celle ci donne un resultat pas très moins de la maquette */
+    @media (min-width: 992px) {
+		.col-md-12 { padding-left : 34px; }
+    }
+	
+	/* Pour le pied de page un padding pour que les boutons ne soient pas collés en bas de la fenêtre */
+	footer{
+		padding-bottom: 10px;
+	}
+
+	/* pour le groupe de boutons */
+	.btn-md {
+		font-size: 14px;
+		padding: 8px 0px;
+		width: 44px;
+		height: 44px;
+		border-radius: 22px;
+	}
+	
+    </style>
+
+  </head>
+
+  <body>
+		<div class="container-fluid">
+			<header class="jumbotron">
+				<div class="row">
+					<div class="col-sm-1 hidden-xs">
+						<a href="#"><img src="assets/img/maison.png" alt="logo"></a>
+					</div>
+					<div class="col-sm-11 text-center">
+						<h1>La maison de l'architecte</h1>    
+					</div>
+				</div>
+			</header>
+			<nav class="row">
+				<div class="col-md-8 col-sm-12">
+					<a href="#"><img src="assets/img/city1.jpg" alt="Nos réalisations"></a>
+				</div>
+				<div class="col-md-4 col-sm-12">
+					<div class="row">
+						<div class="col-md-12 col-sm-6">
+							<a href="#"><img src="assets/img/side1.jpg" alt="Nos projets"></a>
+						</div>
+						<div class="col-md-12 col-sm-6">				
+							<a href="#"><img src="assets/img/side2.jpg" alt="Notre ambition"></a>
+						</div>
+					</div>
+				</div>
+			</nav>
+			<footer class="row">
+				<div class="col-xs-12 text-center">
+					<a class="btn btn-primary btn-md" href="#"><i class="fa fa-twitter fa-2x"></i></a>
+					<a class="btn btn-primary btn-md" href="#"><i class="fa fa-facebook fa-2x"></i></a>
+					<a class="btn btn-primary btn-md" href="#"><i class="fa fa-google-plus fa-2x"></i></a>
+					<a class="btn btn-primary btn-md" href="#"><i class="fa fa-flickr fa-2x"></i></a>
+					<a class="btn btn-primary btn-md" href="#"><i class="fa fa-spotify fa-2x"></i></a>
+				</div>
+			</footer>
+		</div>
+  </body>
+
+</html>
